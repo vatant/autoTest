@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Test">
+    <test name="login">
+        <classes>
+            <class name="com.huawei.testng.suite.SuiteConfig"/>
+            <class name="com.huawei.testng.suite.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="pay">
+        <classes>
+            <class name="com.huawei.testng.suite.SuiteConfig"/>
+            <class name="com.huawei.testng.suite.PayTest"/>
+        </classes>
+    </test>
+</suite>

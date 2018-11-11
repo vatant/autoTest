@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suitename">
+    <test name="runAll">
+        <classes>
+            <class name="com.huawei.testng.groups.GroupsOnClass1"/>
+            <class name="com.huawei.testng.groups.GroupsOnClass2"/>
+            <class name="com.huawei.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+
+    <test name="runGroup1">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.huawei.testng.groups.GroupsOnClass1"/>
+        </classes>
+    </test>
+
+</suite>
