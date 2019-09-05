@@ -1,0 +1,26 @@
+[
+  {
+    "description":"a get type request",
+    "request":{
+      "uri":"/getdemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"no canshu get qingqiu"
+    }
+  },
+  {
+    "description":"yi ge dai canshu de qingqiu ",
+    "request":{
+      "uri":"/getwithparam",
+      "method":"get",
+      "queries":{
+        "name":"huhansan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"huhansan comming again!!"
+    }
+  }
+]

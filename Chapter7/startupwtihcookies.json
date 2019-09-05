@@ -1,0 +1,50 @@
+[
+  {
+    "description":"this is a get request with cookies",
+    "request":{
+      "uri":"/getcookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"get cookies success"
+    }
+  },
+  {
+    "description":"this is a request with cookies",
+    "request":{
+      "uri":"/getwithcookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"response with cookies"
+    }
+  },
+  {
+    "description":"this is a post request with cookies",
+    "request":{
+      "uri":"/postwithcookies",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"huhu"
+      }
+    },
+    "response":{
+      "json":{
+        "name":"huhu",
+        "age":"18"
+      }
+    }
+  }
+]
